@@ -2,6 +2,8 @@
 // BEFORE YOU START: please read the /exercises-info/e1.md file.
 // NAMED FUNCTION SYNTAX: is described in /exercises-info/e4.md file.
 
+import { test } from "vitest";
+
 /**
  * ====================================================
  * Create a function to work as follows:
@@ -15,6 +17,11 @@
 
 // Your code goes here
 
+function logMessage() {
+  console.log('Hello, World!');
+}
+
+ logMessage();
 
 
 
@@ -31,7 +38,11 @@
 
 // Your code goes here...
 
+function logMyMessage() {
+  console.log('I logged my first message!');
+}
 
+logMyMessage();
 
 
 /**
@@ -45,7 +56,12 @@
 */
 
 // Your code goes here...
+function logMessageWithMyName() {
+  var myName = 'Andre';
+  console.log('My name is ' + myName);
+}
 
+logMessageWithMyName();
 
 
 
@@ -62,8 +78,13 @@
 
 // Your code goes here...
 
+function logMyInfo() {
+  var myName = 'Andre.';
+  var age = 18;
+  console.log('My name is ' + myName + '. I am ' + age + ' years old!');
+}
 
-
+logMyInfo();
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-1"
