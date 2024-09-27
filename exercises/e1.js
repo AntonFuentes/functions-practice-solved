@@ -35,15 +35,12 @@ logMessage();
 */
 
 // Your code goes here...
-function logMyMessage () {
-  var myMessage = 'This is my message';
+function logMyMessage (myMessage) {
 
-  if (logMyMessage == true) {
     console.log(myMessage);
-  }
 };
 
-logMyMessage();
+logMyMessage('I logged my first message!');
 
 
 
@@ -59,12 +56,11 @@ logMyMessage();
 */
 
 // Your code goes here...
-function logMessageWithMyName () {
-  var name = Andrey;
+function logMessageWithMyName (name) {
   console.log('My name is ' + name + '!');
-}
+};
 
-logMessageWithMyName();
+logMessageWithMyName('Andrey');
 
 
 
@@ -82,9 +78,10 @@ logMessageWithMyName();
 
 // Your code goes here...
 function logMyInfo(name, age) {
-  confirm.log('My name is' + name + '. I am ' + age + ' years old.');
-}
-logMyInfo(Andrey, 18);
+  console.log('My name is ' + name + '. I am ' + age + ' years old!');
+};
+
+logMyInfo('Andrey', 18);
 
 
 
